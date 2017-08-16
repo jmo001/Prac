@@ -1,0 +1,38 @@
+body{
+  margin: o;
+  border: 0;
+}
+
+h1{
+  color: blue;
+  font-size: 18px;
+}
+
+h2{
+  font-size: 16;
+}
+
+h1,
+h2{
+  text-align: center;
+}
+
+.left,
+.middle,
+.right{
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  border: 2px dotted lightgrey;
+  margin: 10px 30px;
+}
+
+#top,
+#middle,
+#bottom{
+  display: flex;
+  background-color: green;
+  justify-content:  center;
+  min-height: 10px;
+  align-items: center;
+}
